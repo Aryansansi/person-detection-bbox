@@ -57,21 +57,22 @@ This repository provides a TensorFlow-based solution for detecting and bounding 
 
 ## Usage
 
-1. **Run the Script:**
+1. **Run the Script for Person Detection and Bounding Boxes:**
 
-   Execute the script to train and evaluate the model:
+   Execute the `main_rcnn.py` script to train and evaluate the model:
 
    ```bash
    python main_rcnn.py
    ```
 
-2. **Results:**
+2. **Scripts Available:**
 
-   The script will output images with detected bounding boxes and confidence scores.
+   - **`detection.py`:** This script includes a model definition with convolutional layers, processes images in a grid format, and finds bounding boxes around detected persons. It evaluates the model and plots results with bounding boxes.
+   - **`person_detection.py`:** This script uses the VGG16 model as the base, adds custom layers, and performs similar tasks as `detection.py` but with a VGG16-based model. It also processes images in a grid format, predicts bounding boxes, and plots results.
 
-## License
+3. **Results:**
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+   The scripts will output images with detected bounding boxes and confidence scores.
 
 ## Acknowledgments
 
