@@ -79,4 +79,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - The RCNN model is from [Google's Faster RCNN Inception ResNet V2](https://www.kaggle.com/models/google/faster-rcnn-inception-resnet-v2/code).
 
 Feel free to contribute to this project by submitting issues and pull requests!
-```
