@@ -1,9 +1,9 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras import layers, models, Sequential # type: ignore
-from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
-from tensorflow.keras.applications import VGG16 # type: ignore
-from tensorflow.keras.callbacks import LearningRateScheduler # type: ignore
+from tensorflow.keras import layers, models, Sequential 
+from tensorflow.keras.preprocessing.image import ImageDataGenerator 
+from tensorflow.keras.applications import VGG16 
+from tensorflow.keras.callbacks import LearningRateScheduler
 import os
 import matplotlib.pyplot as plt
 
