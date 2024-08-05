@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras import layers, models # type: ignore
-from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
+from tensorflow.keras import layers, models 
+from tensorflow.keras.preprocessing.image import ImageDataGenerator 
 import os
 import matplotlib.pyplot as plt
 
