@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
-from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
 import matplotlib.pyplot as plt
 
